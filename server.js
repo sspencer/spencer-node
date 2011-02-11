@@ -1,7 +1,5 @@
-var http = require('http');
-var port = 80;
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World\n');
-}).listen(port, "127.0.0.1");
-console.log('Server running at http://127.0.0.1:' + port + '/');
+require("http").createServer(function (req, res) {
+  res.writeHead(200, {})
+  res.end("Hello, world!")
+}).listen(80)
+console.log("waiting to say hello.")
