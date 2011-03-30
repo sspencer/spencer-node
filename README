@@ -1,0 +1,15 @@
+What it is:
+    A web services api with random web services.  Services return JSON.
+
+Time/Epoch Service:
+
+    http://spencer.no.de/time/1301465578 
+    {"year":2011,"month":3,"day":30,"hour":6,"minute":12,"second":58,"timestamp":1301465578}
+
+
+
+To deploy:
+    git push joyent master
+
+Save to git:
+    git push origin master
