@@ -1,6 +1,6 @@
 var http = require('http');
 var time = require("./time.js");
-var port = 8080;
+var port = 80;
 
 var epoch = new RegExp("^/epoch|time/[0-9]+$");
 
