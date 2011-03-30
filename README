@@ -4,12 +4,31 @@ What it is:
 Time/Epoch Service:
 
     http://spencer.no.de/time/1301465578 
-    {"year":2011,"month":3,"day":30,"hour":6,"minute":12,"second":58,"timestamp":1301465578}
+
+    {
+		"year":2011,
+		"month":3,
+		"day":30,
+		"hour":6,
+		"minute":12,
+		"second":58,
+		"timestamp":1301465578
+	}
 
 
+UPC Code Service:
 
-To deploy:
-    git push joyent master
+	http://localhost:8080/upc/785247125975
 
-Save to git:
-    git push origin master
+	{
+		"product_type":"Regular UPC codes",
+		"checksum":5,
+		"valid":true,
+		"upc_code":"785247125975",
+		"bits": "0000000001010111... 113 digits ...1110110101000000000"
+	}
+
+	Bits are "drawing bits".  Draw a white horizontal line for 0s, 
+	black horizontal for 1s.
+
+
