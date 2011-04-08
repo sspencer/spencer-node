@@ -28,7 +28,7 @@ UPC Code Service:
 		"bits": "0000000001010111... 113 digits ...1110110101000000000"
 	}
 
-	Bits are "drawing bits".  Draw a white horizontal line for 0s, 
-	black horizontal for 1s.
+	Bits are "drawing bits".  Draw a white vertical line for 0s, 
+	black vertical for 1s.
 
 
